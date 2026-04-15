@@ -1,4 +1,4 @@
-# <img src="./pws.svg" width="20"> Shell Studios
+# <img src="./pws.svg" width="40"> Shell Studios
 
 **Add-ons para Minecraft Bedrock**
 
