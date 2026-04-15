@@ -1,7 +1,7 @@
 <svg
   width="24"
   height="24"
-  viewBox="0 0 24 24"
+  viewBox="0 2 24 20"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
@@ -17,8 +17,6 @@
       }
     }
   </style>
-
-  <!-- Rounded outline box -->
   <rect
     x="3"
     y="5"
@@ -28,8 +26,6 @@
     stroke="var(--stroke-color, black)"
     stroke-width="1.8"
   />
-
-  <!-- > arrow -->
   <path
     d="M9 9 L13 12 L9 15"
     stroke="var(--stroke-color, black)"
@@ -37,8 +33,6 @@
     stroke-linecap="round"
     stroke-linejoin="round"
   />
-
-  <!-- underscore -->
   <line
     x1="14"
     y1="15.5"
