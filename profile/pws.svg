@@ -1,45 +1,65 @@
 <svg
   width="24"
   height="24"
-  viewBox="0 2 24 20"
+  viewBox="0 0 24 24"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <style>
-    @media (prefers-color-scheme: light) {
-      :root {
-        --stroke-color: #000000;
+  <defs>
+    <style>
+      @media (prefers-color-scheme: light) {
+        .ps-stroke {
+          stroke: #1a1a1a;
+        }
       }
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --stroke-color: #ffffff;
+      @media (prefers-color-scheme: dark) {
+        .ps-stroke {
+          stroke: #ffffff;
+        }
       }
-    }
-  </style>
+    </style>
+  </defs>
+
+  <!-- Terminal window with Material Design proportions -->
   <rect
-    x="3"
-    y="5"
-    width="18"
-    height="14"
-    rx="4"
-    stroke="var(--stroke-color, black)"
-    stroke-width="1.8"
+    class="ps-stroke"
+    x="2.5"
+    y="3.5"
+    width="19"
+    height="17"
+    rx="2.5"
+    ry="2.5"
+    stroke-width="1.5"
+    stroke-linejoin="round"
   />
+
+  <!-- Title bar separator -->
+  <line
+    class="ps-stroke"
+    x1="2.5"
+    y1="7.5"
+    x2="21.5"
+    y2="7.5"
+    stroke-width="1.5"
+  />
+
+  <!-- PowerShell prompt chevron (>) -->
   <path
-    d="M9 9 L13 12 L9 15"
-    stroke="var(--stroke-color, black)"
-    stroke-width="1.8"
+    class="ps-stroke"
+    d="M 7.5 12 L 10.5 14.5 L 7.5 17"
+    stroke-width="1.5"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
+
+  <!-- Input cursor line -->
   <line
-    x1="14"
-    y1="15.5"
+    class="ps-stroke"
+    x1="12"
+    y1="14.5"
     x2="17"
-    y2="15.5"
-    stroke="var(--stroke-color, black)"
-    stroke-width="1.8"
+    y2="14.5"
+    stroke-width="1.5"
     stroke-linecap="round"
   />
 </svg>
