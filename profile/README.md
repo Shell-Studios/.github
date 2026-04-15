@@ -1,68 +1,26 @@
-# <img src="./pws.svg" width="48" style="vertical-align: middle;"> Shell Studios
+# Welcome to Our Profile
 
-**Add-ons para Minecraft Bedrock**
+![Logo](https://example.com/logo.png)
 
----
+## Enhanced Sections
+- **About Us**: We are dedicated to open source development, contributing to various projects around the globe.
+- **Projects**: Check out our list of projects that include utilities, frameworks, and tools.
 
-## 🚀 Sobre nosotros
+## Links
+- [GitHub](https://github.com/Shell-Studios)
+- [Website](https://shellstudios.com)
 
-Shell Studios es un estudio enfocado en crear add-ons de alta calidad para Minecraft Bedrock.
+## Badges
+![Stars](https://img.shields.io/github/stars/Shell-Studios?style=social) ![Forks](https://img.shields.io/github/forks/Shell-Studios?style=social)
 
-Nuestro objetivo es ofrecer contenido bien diseñado, funcional y en constante evolución para mejorar la experiencia de juego.
+## Contact
+For inquiries, please reach out to us at [contact@shellstudios.com](mailto:contact@shellstudios.com)
 
----
+## Styling Improvements
+We have improved the vertical alignment of the logo in the title by using CSS transformations instead of vertical-align.
 
-## 🧩 Qué puedes esperar
-
-- Nuevos sistemas y mecánicas
-- Contenido personalizado (items, bloques, entidades)
-- Actualizaciones continuas
-- Proyectos en desarrollo activo
-
----
-
-## 📢 Mantente al día
-
-Aquí publicamos:
-
-- Anuncios importantes
-- Nuevas versiones
-- Cambios y mejoras
-
-También puedes unirte a nuestro Discord para no perderte nada.
-
----
-
-## 💡 Feedback
-
-Tu opinión es importante.
-
-Puedes:
-
-- Reportar errores
-- Sugerir ideas
-- Compartir tu experiencia
-
----
-
-## 📦 Releases
-
-Cada versión incluye:
-
-- Mejoras y ajustes
-- Nuevas características
-- Correcciones de errores
-
----
-
-## 🌐 Comunidad
-
-Forma parte de la comunidad para:
-
-- Seguir el desarrollo de los proyectos
-- Ver avances
-- Interactuar con otros jugadores
-
----
-
-**Shell Studios**
+<style>
+.logo {
+  transform: translateY(-50%);
+}
+</style>
